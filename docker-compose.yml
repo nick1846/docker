@@ -3,7 +3,7 @@ services:
 
 #PHP Service app
   app:
-    image: nick1846/my-php:9.0 
+    image: nick1846/my-php:latest
     container_name: web
     restart: always
     depends_on:
